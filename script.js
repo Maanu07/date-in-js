@@ -27,7 +27,7 @@ console.log(Date.now()); // returns the current time in milliseconds
 // how to get millisecond passed since 1970 from date object?
 console.log(date.getTime());
 
-// To format date in a more advance pattern, for that we can use packages like date-fns, moment, day.js
+// **** To format date in a more advance pattern, for that we can use packages like date-fns, moment, day.js. These packages provides better support for localization, timezones, advanced formatting..
 
 // get ISO time
 console.log(date.toISOString());
